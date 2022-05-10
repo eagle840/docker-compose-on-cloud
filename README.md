@@ -44,6 +44,7 @@ To discover the public endpoint that AWS has given you for the container, run 'd
   
   - docker build commands in a docker-compose file won't run
   - does the awscli need to be installed - just provide the credentials
+  - deployment will fail if the github repo name used does not follow the:    ValidationError: 1 validation error detected: Value 'docker_compose_fargate' at 'stackName' failed to satisfy constraint: Member must satisfy regular expression pattern: [a-zA-Z][-a-zA-Z0-9]*
   
  
   
